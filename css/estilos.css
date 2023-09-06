@@ -52,7 +52,7 @@
 
 .bmore {
   font-family: "Be Vietnam Pro", sans-serif;
-  width: 120px;
+  width: 130px;
   height: 42px;
   padding: 10px;
   align-items: center;
@@ -84,7 +84,8 @@
   color: #232c50;
 }
 .caja2 {
-  width: 97%;
+  position: relative;
+  margin: 0 auto;
   padding: 10px;
   height: relative;
   background-color: #8b48bf;
@@ -140,4 +141,56 @@
 .p_point {
   color: #b3b2b7;
   text-align: left;
+}
+
+.piepag1 {
+  background-color: #8b48bf;
+  display: flex;
+}
+.bGo {
+  font-family: "Be Vietnam Pro", sans-serif;
+  width: 60px;
+  height: 42px;
+  padding: 5px;
+  gap: 5px;
+  border-radius: 50px;
+  border: none;
+  color: #8b48bf;
+  background-color: white;
+  justify-content: right;
+}
+.piePag {
+  background-color: #1e1e26;
+  color: white;
+}
+
+.enlaces2 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.enlaces2 a {
+  color: white;
+  font-size: 15px;
+  font-style: normal;
+}
+.enlaces2 a:hover {
+  color: #b3b2b7;
+}
+.enlaces2 li {
+  margin-right: 20px; /* Añade espaciado entre los elementos de la lista */
+}
+.bsubmit {
+  font-family: "Be Vietnam Pro", sans-serif;
+  width: 60px;
+  height: 42px;
+  padding: 5px;
+  align-items: center;
+  gap: 5px;
+  border-radius: 50px;
+  border: none;
+  background: #8b48bf;
+  color: white;
 }
