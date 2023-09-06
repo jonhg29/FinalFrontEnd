@@ -3,7 +3,6 @@
   position: relative;
   margin: 0 auto;
 }
-
 .navBar {
   display: flex;
   justify-content: space-around;
@@ -11,7 +10,7 @@
   padding: 25px; /* Añade espaciado alrededor de la barra de navegación */
 }
 .navBar img {
-  width: 100px;
+  width: 120px;
 }
 .enlaces {
   list-style: none;
@@ -27,25 +26,95 @@
   font-size: 15px;
   font-style: normal;
 }
-.enlaces a :hover {
-  background-color: rgba(36, 46, 82, 0.6);
+.enlaces a:hover {
+  color: rgba(36, 46, 82, 0.6);
 }
 .enlaces li {
   margin-right: 20px; /* Añade espaciado entre los elementos de la lista */
 }
 
-.boton1 {
+.bContacto {
   font-family: "Be Vietnam Pro", sans-serif;
-  display: flex;
-  width: 134px;
-  height: 44px;
+  width: 130px;
+  height: 42px;
   padding: 10px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
   border-radius: 50px;
+  border: none;
+  align-items: center;
+  gap: 5px;
   background: #8b48bf;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25);
 }
 .cuerpo {
   display: flex;
+}
+
+.bmore {
+  font-family: "Be Vietnam Pro", sans-serif;
+  width: 120px;
+  height: 42px;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  border: none;
+  background: #8b48bf;
+}
+.seccon1 {
+  width: 100%;
+  height: 50px;
+}
+.parte1 {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.live {
+  font-family: "Be Vietnam Pro", sans-serif;
+  margin-right: 35px;
+  padding: 20px;
+  font-size: 35px;
+  text-align: right;
+  color: #232c50;
+}
+.p1 {
+  font-size: 17px;
+  text-align: right;
+  color: #232c50;
+}
+.caja2 {
+  width: 97%;
+  padding: 10px;
+  height: relative;
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-color: #8b48bf;
+  color: white;
+}
+.parte2 {
+  size: 70px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.p2 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  text-align: center;
+
+  text-align: left;
+  color: white;
+  size: 19px;
+  width: 450px;
+  line-height: 1.5;
+  margin-right: 70px;
+  margin-left: 50px;
+}
+.question {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 36px;
+  margin-right: 50px;
+  margin-left: 70px;
+}
+.differentbtwpros {
+  background-color: #fafafa;
 }
