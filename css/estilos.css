@@ -87,7 +87,6 @@
   width: 97%;
   padding: 10px;
   height: relative;
-  font-family: "Be Vietnam Pro", sans-serif;
   background-color: #8b48bf;
   color: white;
 }
@@ -98,9 +97,7 @@
   align-items: center;
 }
 .p2 {
-  font-family: "Be Vietnam Pro", sans-serif;
   text-align: center;
-
   text-align: left;
   color: white;
   size: 19px;
@@ -110,11 +107,37 @@
   margin-left: 50px;
 }
 .question {
-  font-family: "Be Vietnam Pro", sans-serif;
   font-size: 36px;
   margin-right: 50px;
   margin-left: 70px;
 }
 .differentbtwpros {
   background-color: #fafafa;
+  size: 16px;
+  line-height: 1.5;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.points3 {
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.point01,
+.point02,
+.point03 {
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 437px;
+  height: 158px;
+  text-align: center;
+}
+.h3_point {
+  color: #323851;
+  text-align: left;
+}
+.p_point {
+  color: #b3b2b7;
+  text-align: left;
 }
