@@ -144,6 +144,7 @@
 }
 
 .piepag1 {
+  color: white;
   background-color: #8b48bf;
   display: flex;
 }
@@ -193,4 +194,21 @@
   border: none;
   background: #8b48bf;
   color: white;
+}
+.segundoT {
+  font-family: "Be Vietnam Pro", sans-serif;
+  size: 40px;
+  align-items: center;
+}
+.caja3 {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.cajasInt {
+  display: flex;
+}
+.h3_name {
+  color: #3f4868;
+}
+.p_name {
+  color: #b9b9c1;
 }
